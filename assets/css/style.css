@@ -1,12 +1,16 @@
 .jumbotron {
-    background-color: #7CB9E8;
+    background-color: rgb(51,104,155);
     color: #fff;
     font-family: Montserrat, sans-serif;
   }
   body {
-  	background-color: #F8F8FF;
+  	background-color: rgb(137,175,210);
   }
 
   .panel{
-  	background-color: #FFFAFA;
+  	background-color: rgb(245,246,247);
   }
+
+.table-hover tbody tr:hover td {
+    background: rgb(138,165,196);
+}
