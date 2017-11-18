@@ -1,16 +1,24 @@
 .jumbotron {
-    background-color: rgb(51,104,155);
-    color: #fff;
+    background-color: black;
+    color: white;
+;
     font-family: Montserrat, sans-serif;
   }
   body {
-  	background-color: rgb(137,175,210);
+    background-color: rgb(220,220,220);
   }
 
   .panel{
-  	background-color: rgb(245,246,247);
+    background-color: rgb(245,246,247);
   }
 
 .table-hover tbody tr:hover td {
     background: rgb(138,165,196);
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: black;
+    color: white;
+
 }
